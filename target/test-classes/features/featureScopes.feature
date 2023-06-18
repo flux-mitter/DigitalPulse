@@ -1,4 +1,4 @@
-Feature: Validate PwCDigital
+Feature: Validate digitalpulse Website
 
 	@Sanity
     Scenario Outline: Column verification of Homepage
