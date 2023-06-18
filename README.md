@@ -23,4 +23,4 @@ Steps to execute project
 3. Execute the runner.TestRunner.java file under src/test/java/runner file to execute the existing feature files.@Sanity and @Regression tags are used in the CucumberRunner.java file.
 4. Check the test-output folder report
 
-Please note : Last execution is uploaded in repository
+Please note : Last execution is uploaded in repository.
