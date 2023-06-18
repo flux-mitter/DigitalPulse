@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="165.308812">
+    <testcase classname="Validate PwCDigital" name="Column verification of Homepage" time="36.29066">
+        <system-out><![CDATA[Given I navigate to the PwC Digital Pulse website...........................passed
+When I am viewing the "Home" page...........................................passed
+Then I am presented with "3" columns of articles............................passed
+And The "left" column is displaying "2" articles............................passed
+And The "middle" column is displaying "1" articles..........................passed
+And The "right" column is displaying "4" articles...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate PwCDigital" name="Subscription fields validations" time="68.264829">
+        <system-out><![CDATA[Given I navigate to the PwC Digital Pulse website...........................passed
+When I am viewing the "Home" page...........................................passed
+When I click on the Subscribe navigation link...............................passed
+Then I am taken to the Subscribe page.......................................passed
+And I am presented with the below fields....................................passed
+And I will need to complete Google reCAPTCHA before I can complete my request.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate PwCDigital" name="Search Result verification" time="60.753323">
+        <system-out><![CDATA[Given I navigate to the PwC Digital Pulse website...........................passed
+When I click on the Magnifying glass icon to perform a search...............passed
+And I enter the text "Single page applications".............................passed
+And I submit the search.....................................................passed
+Then I am taken to the search results page..................................passed
+And I am presented with at least "1" search result..........................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,485 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9342487500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Column verification of Homepage",
+        "description": "",
+        "id": "validate-pwcdigital;column-verification-of-homepage;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 95083,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1408534584,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21320101000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "HomeStepDefinations.UserIsInsideHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2296395208,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am viewing the \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeStepDefinations.IAmViewingThePage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542375750,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am presented with \"3\" columns of articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeStepDefinations.iAmPresentedWithColumnsOfArticles(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176807667,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The \"left\" column is displaying \"2\" articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 5
+                },
+                {
+                  "val": "2",
+                  "offset": 33
+                }
+              ],
+              "location": "HomeStepDefinations.the_column_is_displaying_articles(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 367603875,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The \"middle\" column is displaying \"1\" articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "middle",
+                  "offset": 5
+                },
+                {
+                  "val": "1",
+                  "offset": 35
+                }
+              ],
+              "location": "HomeStepDefinations.the_column_is_displaying_articles(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 833415666,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The \"right\" column is displaying \"4\" articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "right",
+                  "offset": 5
+                },
+                {
+                  "val": "4",
+                  "offset": 34
+                }
+              ],
+              "location": "HomeStepDefinations.the_column_is_displaying_articles(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5157861959,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Subscription fields validations",
+        "description": "",
+        "id": "validate-pwcdigital;subscription-fields-validations;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 225083,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1435655625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22083965333,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "HomeStepDefinations.UserIsInsideHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4912747833,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am viewing the \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeStepDefinations.IAmViewingThePage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3444390458,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the Subscribe navigation link",
+            "match": {
+              "location": "HomeStepDefinations.iClickOnTheSubscribeNavigationLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27171065208,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am taken to the Subscribe page",
+            "match": {
+              "location": "SubscribeStepDefination.iAmTakenToTheSubscribePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2480173667,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am presented with the below fields",
+            "match": {
+              "location": "SubscribeStepDefination.iAmPresentedWithTheBelowFields(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Required",
+                  "Type"
+                ]
+              },
+              {
+                "cells": [
+                  "First Name",
+                  "true",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "Last Name",
+                  "true",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "Organisation",
+                  "true",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "Business Email Address",
+                  "true",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "Job Title",
+                  "true",
+                  "dropdown"
+                ]
+              },
+              {
+                "cells": [
+                  "State",
+                  "true",
+                  "dropdown"
+                ]
+              },
+              {
+                "cells": [
+                  "Countries or regions",
+                  "true",
+                  "dropdown"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1578137292,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I will need to complete Google reCAPTCHA before I can complete my request",
+            "match": {
+              "location": "SubscribeStepDefination.iWillNeedToCompleteGoogleReCAPTCHABeforeICanCompleteMyRequest()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5633248875,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Search Result verification",
+        "description": "",
+        "id": "validate-pwcdigital;search-result-verification;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 68541,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 340633625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21722633875,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "HomeStepDefinations.UserIsInsideHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4809093875,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on the Magnifying glass icon to perform a search",
+            "match": {
+              "location": "HomeStepDefinations.iClickOnTheMagnifyingGlassIconToPerformASearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2329287208,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I enter the text \"Single page applications\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Single page applications",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeStepDefinations.iEnterTheTextSinglePageApplications(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24599394833,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I submit the search",
+            "match": {
+              "location": "HomeStepDefinations.iSubmitTheSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1195933917,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I am taken to the search results page",
+            "match": {
+              "location": "SearchStepDefinations.iAmTakenToTheSearchResultsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122703042,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I am presented with at least \"1\" search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "SearchStepDefinations.iAmPresentedWithAtLeastSearchResult(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validate PwCDigital",
+    "description": "",
+    "id": "validate-pwcdigital",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/featureScopes.feature",
+    "tags": []
+  }
+]
