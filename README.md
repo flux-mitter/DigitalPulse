@@ -20,7 +20,7 @@ Steps to execute project
 
 1. Take a pull of the codebase from github.
 2. Build the project to download thee maven dependencies for the project.
-3. Execute the CucumberRunner.java file under src/test/java/runner file to execute the existing feature files.@Sanity and @Regression tags are used in the CucumberRunner.java file.
+3. Execute the runner.TestRunner.java file under src/test/java/runner file to execute the existing feature files.@Sanity and @Regression tags are used in the CucumberRunner.java file.
 4. Check the test-output folder report
 
 Please note : Last execution is uploaded in repository
